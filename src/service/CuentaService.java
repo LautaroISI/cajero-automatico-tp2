@@ -4,13 +4,7 @@ import model.CuentaBancaria;
 
 import java.util.ArrayList;
 
-/*
- * La clase Service se encarga de administrar todas las cuentas del sistema.
- * El TP pide el paquete "service" — acá centralizamos la lógica de búsqueda y gestión.
- * 
- * En un sistema real esto podría conectarse a una base de datos.
- * Acá simplemente usamos un ArrayList en memoria.
- */
+
 public class CuentaService {
 
     // Lista de todas las cuentas registradas en el sistema
