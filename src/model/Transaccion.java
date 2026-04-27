@@ -35,11 +35,7 @@ public class Transaccion {
         return descripcion;
     }
 
-        /*
-        * Este método convierte la transacción a texto para el historial.
-        * Usamos StringBuilder porque el TP lo pide explícitamente.
-        * El formato es: [fecha hora] TIPO: $monto | descripcion
-        */
+     
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
